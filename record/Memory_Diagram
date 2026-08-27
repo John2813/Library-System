@@ -1,0 +1,20 @@
+[ Stack ]
+  └─ library (Library object)
+
+[ Heap ]
+  │
+  ├── 1. Book List (Library objects and Node)
+  │    └─ Books (BookNode*) 
+  │         ├─ [BookNode Memory] ---> next: nullptr
+  │         └─ book --------------> [Book object 101 memory] (Title, Author...)
+  │
+  ├── 2. User List (Library objects and Node)
+  │    └─ Users (UserNode*)
+  │         ├─ [UserNode memory] ---> next: nullptr
+  │         └─ user --------------> [User object Root memory]
+  │                                   │
+  │                                   └─ BorrowedBook (BookNode*)
+  │                                        ├─ [BookNode memory] ---> next: nullptr
+  │                                        └─ book ───────────┐
+  │                                                           │ (Point at only)
+  └───────────────────────────────────────────────────────────┘

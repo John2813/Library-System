@@ -1,0 +1,6 @@
+1 Alice alice_pass2026 1
+2 Bob bob_secure88 1
+3 Charlie charlie_99 1
+4 Dave dave_p33 0
+4 Mary mary_6 1
+5 John john_9 1

@@ -1,0 +1,31 @@
+vision: 1.0.0  
+envirment: Fedora 44
+BookManager system with simple TUI(Maybe not) and interactive interface(just interact)
+26.8.21 backbone building
+26.8.22 create BookNode,UserNode to use link list in Labrary..
+        complete UserRegister,UserLogin,AddBook,RemoveBook in Labrary
+        complete all functions in User
+        add id to User class
+26.8.23 complete the simple logic of interaction.
+        find some bugs like changing the booknum in class User and class labrary
+        learn the use of 'explicit'
+26.8.24 complete the main logic
+        fix the bug in return book logic
+        change void func showallbook to bool type to estimate if there is any book
+        complete the destructors inneed.
+        fix the memory leak with Valgrind
+26.8.25 change io from C type to C++ type
+        add UserRegister functions
+        add basic file operation(load)
+26.8.26 add save functions for books and users 
+        complete UserRemove
+26.8.27 optimize my main file
+        add LibraryUI class as interact interface
+
+I have learned how classes interact, how to find memory leak and a way to deal with data =>change the bool varible of if load the data.
+Then I plan to add a TRUE TUI with ncurses lib. Maybe in version 2.x.x.
+I'll also plan to add database like SQL in the future.
+
+
+
+        
